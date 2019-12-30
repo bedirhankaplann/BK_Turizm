@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="265dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/bkturizm" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/allerta"
+        android:gravity="center_horizontal"
+        android:text="Biletlerim"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/VeriListele"
+        android:layout_height="400dp"
+        android:layout_marginTop="20dp"
+ />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|bottom"
+        android:background="@android:color/white">
+
+        <Button
+            android:id="@+id/btnBiletAl"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="0dp"
+            android:background="@android:color/white"
+            android:drawableStart="@mipmap/bus"
+            android:text="Bilet Al"
+            android:textColor="@android:color/holo_blue_dark"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/btnBiletim"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1dp"
+            android:layout_toRightOf="@id/btnBiletAl"
+            android:background="@android:color/white"
+            android:drawableStart="@mipmap/ticket"
+            android:text="Biletlerim"
+            android:textColor="@android:color/holo_blue_dark"
+            tools:layout_editor_absoluteX="153dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/btnHesabim"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="11dp"
+            android:layout_marginBottom="151dp"
+            android:layout_toRightOf="@id/btnBiletim"
+            android:background="@android:color/white"
+            android:drawableStart="@mipmap/account"
+            android:text="Hesabım"
+            android:textColor="@android:color/holo_blue_dark"
+            tools:layout_editor_absoluteX="302dp"
+            tools:layout_editor_absoluteY="0dp" />
+    </RelativeLayout>
+</LinearLayout>

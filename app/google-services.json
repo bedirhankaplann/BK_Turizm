@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1057090685949",
+    "firebase_url": "https://bk-turizm-1576437638957.firebaseio.com",
+    "project_id": "bk-turizm-1576437638957",
+    "storage_bucket": "bk-turizm-1576437638957.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057090685949:android:67e5d59f50dafed407e794",
+        "android_client_info": {
+          "package_name": "com.bedirhankaplan.bkturizm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057090685949-kkjmjbdeno1p8st02ke7icj267ei4ri9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bedirhankaplan.bkturizm",
+            "certificate_hash": "c23f08e5dfe5bc1a0003503b937c8df4f465cb73"
+          }
+        },
+        {
+          "client_id": "1057090685949-lv4eh6odl1jbl6hibkhdhh733gb59rjl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX9uaVCIGcPe2KbK9pBpIrvo1_3uMhook"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057090685949-lv4eh6odl1jbl6hibkhdhh733gb59rjl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

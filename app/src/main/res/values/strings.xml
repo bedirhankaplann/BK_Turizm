@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BK TURIZM</string>
+    <string-array name="sehirler">
+        <item>Adana</item>
+        <item>Amasya</item>
+        <item>Ankara</item>
+        <item>Antalya</item>
+        <item>Bolu</item>
+        <item>Bursa</item>
+        <item>Çanakkale</item>
+        <item>Edirne</item>
+        <item>Eskişehir</item>
+        <item>Gaziantep</item>
+        <item>İstanbul</item>
+        <item>İzmir</item>
+        <item>Kastamonu</item>
+        <item>Kayseri</item>
+        <item>Kocaeli</item>
+        <item>Manisa</item>
+        <item>Osmaniye</item>
+        <item>Şanlıurfa</item>
+        <item>Tekirdağ</item>
+        <item>Zonguldak</item>
+    </string-array>
+</resources>
